@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A2 - Introdução ao HTML e CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        h3 {
+            color: darkgreen;
+        }
+
+        code {
+            background-color: #e0e0e0;
+            padding: 3px;
+        }
+
+        pre {
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+
+        img {
+            width: 250px;
+        }
+
+        blockquote {
+            background-color: #ffffff;
+            padding: 10px;
+            border-left: 4px solid gray;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>A2 - Introdução ao HTML e CSS</h1>
+
+    <p>
+        Um sistema web funciona com um <strong>cliente</strong> e um <strong>servidor</strong>
+        que se comunicam através do protocolo <abbr title="HyperText Transfer Protocol">HTTP</abbr>.
+    </p>
+
+    <h2>Explicando as Principais Tags</h2>
+
+    <h3>&lt;h1&gt; até &lt;h6&gt;</h3>
+    <p>
+        São títulos. O <code>&lt;h1&gt;</code> é o mais importante da página.
+    </p>
+
+    <h3>&lt;p&gt;</h3>
+    <p>
+        Define um parágrafo de texto.
+    </p>
+
+    <h3>&lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;</h3>
+    <p>Servem para criar listas.</p>
+
+    <h4>Lista não ordenada:</h4>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h4>Lista ordenada:</h4>
+    <ol>
+        <li>Cliente faz requisição</li>
+        <li>Servidor processa</li>
+        <li>Servidor responde</li>
+    </ol>
+
+    <h3>&lt;a&gt;</h3>
+    <p>
+        Cria links. Exemplo:
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+            Documentação HTML
+        </a>
+    </p>
+
+    <h3>&lt;img&gt;</h3>
+    <p>
+        Exibe imagens usando o atributo <code>src</code>.
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML">
+
+    <h3>&lt;blockquote&gt; e &lt;cite&gt;</h3>
+    <blockquote>
+        "HTML é a estrutura da web."
+        <br>
+        <cite>Material da disciplina</cite>
+    </blockquote>
+
+    <h3>&lt;code&gt; e &lt;pre&gt;</h3>
+    <p>Usadas para exibir código:</p>
+
+    <pre>
+&lt;h1&gt;Olá Mundo&lt;/h1&gt;
+    </pre>
+
+    <h3>&lt;strong&gt; e &lt;em&gt;</h3>
+    <p>
+        <strong>Strong</strong> deixa o texto em destaque.
+        <em>Em</em> dá ênfase ao texto.
+    </p>
+
+    <h3>&lt;sub&gt; e &lt;sup&gt;</h3>
+    <p>
+        H<sub>2</sub>O é água.
+        2<sup>3</sup> = 8.
+    </p>
+
+    <h3>&lt;time&gt;</h3>
+    <p>
+        Representa datas: <time>2026-02-27</time>
+    </p>
+
+    <h3>&lt;address&gt;</h3>
+    <address>
+        Desenvolvido por Victor Alves Farias<br>
+        Ribeirão Preto - SP
+    </address>
+
+    <h3>&lt;details&gt; e &lt;summary&gt;</h3>
+    <details>
+        <summary>Clique para ver uma explicação extra</summary>
+        HTML estrutura o conteúdo enquanto CSS estiliza a aparência.
+    </details>
+
+    <h3>&lt;meter&gt;</h3>
+    <p>Nível de aprendizado em HTML:</p>
+    <meter value="0.7">70%</meter>
+
+    <h3>&lt;progress&gt;</h3>
+    <p>Progresso da atividade:</p>
+    <progress value="80" max="100"></progress>
+
+    <h3>&lt;kbd&gt;</h3>
+    <p>
+        Para iniciar o servidor local no VS Code use:
+        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+    </p>
+
+    <h3>&lt;small&gt;</h3>
+    <small>Trabalho acadêmico - Introdução ao HTML e CSS</small>
+
+    <hr>
+
+    <h2>Conclusão</h2>
+    <p>
+        HTML define a <strong>estrutura</strong>, CSS define a <strong>aparência</strong>
+        e JavaScript define o <strong>comportamento</strong> da página.
+    </p>
+
+</body>
+
+</html>
